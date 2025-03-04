@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Your Tagline</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Your Name</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to My World</h2>
+            <p>Your tagline or a brief introduction goes here.</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="content-section">
+        <h2>About Me</h2>
+        <p>Insert your bio here. Talk about your journey, skills, and what makes you unique.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="content-section">
+        <h2>Services</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <h3>Service 1</h3>
+                <p>Description of your first service.</p>
+            </div>
+            <div class="service-item">
+                <h3>Service 2</h3>
+                <p>Description of your second service.</p>
+            </div>
+            <div class="service-item">
+                <h3>Service 3</h3>
+                <p>Description of your third service.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="content-section">
+        <h2>Latest Blog Posts</h2>
+        <p>Add your blog teasers or links here.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+        <h2>Contact Me</h2>
+        <p>Email: your.email@example.com</p>
+        <p>Social Media: Add your links here</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
